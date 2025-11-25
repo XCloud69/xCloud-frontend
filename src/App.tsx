@@ -1,11 +1,12 @@
-import HomePage from "./pages/Home";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./shared/router";
 
 function App() {
-	return (
-		<div>
-			<HomePage />
-		</div>
-	);
+  return (
+   <>
+    <RouterProvider router={router} />
+   </>
+  );
 }
 
 export default App;
