@@ -4,6 +4,49 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  /* Gray palette */
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
+  --color-gray-950: #030712;
+
+  /* Accent/Core colors */
+  --color-green: #10b981;
+  --color-purple: #a855f7;
+  --color-teal: #14b8a6;
+  --color-black: #000000;
+  --color-orange: #fb923c;
+
+  /* skyBlue palette */
+  --color-skyblue-50: #EEF5FF;
+  --color-skyblue-100: #DCE8FE;
+  --color-skyblue-200: #BFD6FF;
+  --color-skyblue-300: #94BBFE;
+  --color-skyblue-400: #609AFB;
+  --color-skyblue-500: #3B82F6;
+  --color-skyblue-600: #2571EB;
+  --color-skyblue-700: #1D64D8;
+  --color-skyblue-800: #1D64D8;
+  --color-skyblue-900: #1E4789;
+  --color-skyblue-950: #162E54;
+
+  /* Button/Token colors */
+  --color-button-secondary: #bfdbfe;
+  --color-button-accent: #a855f7;
+  --color-button-success: #14b8a6;
+
+  /* Heading/Text colors */
+  --color-heading-primary: #1e3a8a;
+  --color-heading-secondary: #1f2937;
+  --color-text-primary: #64748b;
+  /* main file */
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
