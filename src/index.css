@@ -82,11 +82,29 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+
+  /* skyblue palette */
+  --color-skyblue-50: #EEF5FF;
+  --color-skyblue-100: #DCE8FE;
+  --color-skyblue-200: #BFD6FF;
+  --color-skyblue-300: #94BBFE;
+  --color-skyblue-400: #609AFB;
+  --color-skyblue-500: #3B82F6;
+  --color-skyblue-600: #2571EB;
+  --color-skyblue-700: #1D64D8;
+  --color-skyblue-800: #1D64D8;
+  --color-skyblue-900: #1E4789;
+  --color-skyblue-950: #162E54;
+  /* custom colors */
+  --color-primary-heading-text-color: var(--primary-heading-text-color);
+  --color-secondary-heading-text-color: var(--secondary-heading-text-color);
+  --color-primary-text-color: var(--primary-text-color);
+  --color-secondary-text-color: var(--secondary-text-color);
 }
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  --background: #F9FAFB;
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -117,6 +135,11 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  /* custom colors */
+  --primary-heading-text-color: #162E54;
+  --secondary-heading-text-color: #1E1E1E;
+  --primary-text-color: #64748B;
+  --secondary-text-color: #F6F7F9;
 }
 
 .dark {
@@ -151,12 +174,18 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+  /* custom colors */
+  --primary-heading-text-color: #162E54;
+  --secondary-heading-text-color: #1E1E1E;
+  --primary-text-color: #64748B;
+  --secondary-text-color: #F6F7F9;
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
