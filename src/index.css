@@ -25,17 +25,16 @@
   --color-orange: #fb923c;
 
   /* skyBlue palette */
-  --color-skyblue-50: #EEF5FF;
-  --color-skyblue-100: #DCE8FE;
-  --color-skyblue-200: #BFD6FF;
-  --color-skyblue-300: #94BBFE;
-  --color-skyblue-400: #609AFB;
-  --color-skyblue-500: #3B82F6;
-  --color-skyblue-600: #2571EB;
-  --color-skyblue-700: #1D64D8;
-  --color-skyblue-800: #1D64D8;
-  --color-skyblue-900: #1E4789;
-  --color-skyblue-950: #162E54;
+  --color-skyblue-50: #eef5ff;
+  --color-skyblue-100: #dce8fe;
+  --color-skyblue-200: #bfd6ff;
+  --color-skyblue-300: #94bbfe;
+  --color-skyblue-400: #609afb;
+  --color-skyblue-500: #3b82f6;
+  --color-skyblue-600: #2571eb;
+  --color-skyblue-700: #1d64d8;
+  --color-skyblue-900: #1e4789;
+  --color-skyblue-950: #162e54;
 
   /* Button/Token colors */
   --color-button-secondary: #bfdbfe;
@@ -83,18 +82,6 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
 
-  /* skyblue palette */
-  --color-skyblue-50: #EEF5FF;
-  --color-skyblue-100: #DCE8FE;
-  --color-skyblue-200: #BFD6FF;
-  --color-skyblue-300: #94BBFE;
-  --color-skyblue-400: #609AFB;
-  --color-skyblue-500: #3B82F6;
-  --color-skyblue-600: #2571EB;
-  --color-skyblue-700: #1D64D8;
-  --color-skyblue-800: #1D64D8;
-  --color-skyblue-900: #1E4789;
-  --color-skyblue-950: #162E54;
   /* custom colors */
   --color-primary-heading-text-color: var(--primary-heading-text-color);
   --color-secondary-heading-text-color: var(--secondary-heading-text-color);
@@ -104,7 +91,7 @@
 
 :root {
   --radius: 0.625rem;
-  --background: #F9FAFB;
+  --background: #f9fafb;
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -136,10 +123,10 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
   /* custom colors */
-  --primary-heading-text-color: #162E54;
-  --secondary-heading-text-color: #1E1E1E;
-  --primary-text-color: #64748B;
-  --secondary-text-color: #F6F7F9;
+  --primary-heading-text-color: #162e54;
+  --secondary-heading-text-color: #1e1e1e;
+  --primary-text-color: #64748b;
+  --secondary-text-color: #f6f7f9;
 }
 
 .dark {
@@ -175,15 +162,15 @@
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
   /* custom colors */
-  --primary-heading-text-color: #162E54;
-  --secondary-heading-text-color: #1E1E1E;
-  --primary-text-color: #64748B;
-  --secondary-text-color: #F6F7F9;
-}
+  --primary-heading-text-color: #162e54;
+  --secondary-heading-text-color: #1e1e1e;
+  --primary-text-color: #64748b;
+  --secondary-text-color: #f6f7f9;}
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    font-family: "Inter", sans-serif;
   }
 
   body {
