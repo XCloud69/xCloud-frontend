@@ -12,7 +12,10 @@ export const router = createBrowserRouter(
       <Route path="/" element={<MainLayout />}>
         <Route index element={<h1>Home</h1>} />
         {/* /contact */}
-        <Route path="contact" element={<h1>Contact</h1>} />
+        <Route path="file" element={<h1>Contact</h1>} />
+        <Route path="meeting" element={<h1>Meeting</h1>} />
+        <Route path="gmail" element={<h1>Gmail</h1>} />
+        <Route path="calendar" element={<h1>Calendar</h1>} />
       </Route>
       <Route path="/learn" element={<FilesLayout />}>
         <Route index element={<h1>Learn</h1>} />

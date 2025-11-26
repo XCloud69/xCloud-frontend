@@ -34,6 +34,7 @@ export const images = {
 	chattingServiceCardImg,
 	homePageBackgroung,
 	logo,
+	
 };
 export const icons = {
 	frame,
