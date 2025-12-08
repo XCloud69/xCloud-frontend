@@ -2,7 +2,7 @@ import {
 	FeaturesSection,
 	HeroSection,
 	LandingFooter,
-} from "@/features/landing";
+} from "@/features/landing/components";
 
 const LandingPage = () => {
 	return (

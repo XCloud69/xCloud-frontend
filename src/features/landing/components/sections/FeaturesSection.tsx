@@ -1,4 +1,4 @@
-import { FeaturesCarousel } from "@/features/landing";
+import { FeaturesCarousel } from "@/features/landing/components";
 
 const FeaturesSection = () => {
 	return (
