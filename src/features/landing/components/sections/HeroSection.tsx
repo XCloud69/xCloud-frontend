@@ -1,5 +1,5 @@
 import { images } from "../../assets";
-import { LandingNavbar, HeroHeading } from "@/features/landing";
+import { LandingNavbar, HeroHeading } from "@/features/landing/components";
 const HeroSection = () => {
 	return (
 		<main

@@ -6,12 +6,15 @@ import {
 import MainLayout from "../layout/MainLayout";
 import FilesLayout from "../layout/FilesLayout";
 import LandingPage from "@/pages/Landing";
+import CalendarPage from "@/pages/Calendar";
 
 export const router = createBrowserRouter(
 	createRoutesFromElements(
 		<>
 			<Route path='/' element={<MainLayout />}>
 				<Route index element={<LandingPage />} />
+				{/* /calendar */}
+				<Route path='calendar' element={<CalendarPage />} />
 				{/* /contact */}
 				<Route path='contact' element={<h1>Contact</h1>} />
 			</Route>

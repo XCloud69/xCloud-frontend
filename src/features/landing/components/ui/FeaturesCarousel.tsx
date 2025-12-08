@@ -6,7 +6,7 @@ import {
 	CarouselPrevious,
 } from "@/components/ui/carousel";
 import { carouselItemsData } from "../../data/carouselItems";
-import { FeatureCard } from "@/features/landing";
+import { FeatureCard } from "@/features/landing/components";
 const FeaturesCarousel = () => {
 	return (
 		<Carousel className='w-full max-w-[150px] sm:max-w-xs md:max-w-xl lg:max-w-4xl'>
