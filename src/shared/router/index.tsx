@@ -1,10 +1,11 @@
 import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
+	createBrowserRouter,
+	createRoutesFromElements,
+	Route,
 } from "react-router-dom";
 import MainLayout from "../layout/MainLayout";
 import FilesLayout from "../layout/FilesLayout";
+import LandingPage from "@/pages/Landing";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
